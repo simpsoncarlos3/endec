@@ -1,7 +1,7 @@
 [package]
 name = "endec"
 version = "0.1.0"
-authors = ["Jimmy Ranson<jimmyranson229@gmail.com>"]
+authors = ["Simpson Carlos<simpsoncarlos3@gmail.com>"]
 description = "A simple command-line tool for encrypting and decrypting strings using AES encryption with a password."
 license = "MIT OR Apache-2.0"
 repository = "https://github.com/simpsoncarlos3/endec"
