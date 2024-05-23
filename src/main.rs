@@ -1,12 +1,8 @@
 //! A simple command-line tool for encrypting and decrypting strings using AES encryption.
 
-use crypto::aes::ecb_decryptor;
-use crypto::aes::ecb_encryptor;
-use crypto::buffer::{BufferResult, ReadBuffer, WriteBuffer};
+use crypto::buffer::{ReadBuffer, WriteBuffer};
 use crypto::digest::Digest;
 use crypto::sha2::Sha256;
-use crypto::symmetriccipher::Decryptor;
-use crypto::symmetriccipher::Encryptor;
 use std::env;
 
 fn main() {
