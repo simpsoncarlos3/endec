@@ -14,7 +14,7 @@ A simple command-line tool for encrypting and decrypting strings using AES encry
 To install `endec`, you need to have Rust and Cargo installed on your system. If you don't have them already, you can download and install Rust from the official website: <https://www.rust-lang.org/tools/install>
 
 Once you have Rust and Cargo set up, you can install `endec` by running the following command:
-cargo install endec
+`cargo install endec`
 
 This command will download the `endec` crate from crates.io and compile it, generating an executable binary. The binary will be installed into the installation root's `bin` directory, which is typically `$HOME/.cargo/bin` on Unix-like systems and `%USERPROFILE%\.cargo\bin` on Windows.
 
@@ -23,7 +23,7 @@ Make sure that the installation root's `bin` directory is in your system's `PATH
 ## Usage
 
 To use `endec`, open a terminal and run the following command:
-endec <string> <password> [-d]
+`endec <string> <password> [-d]`
 
 - `<string>`: The string to encrypt or decrypt.
 - `<password>`: The password to use for encryption or decryption.
@@ -32,18 +32,18 @@ endec <string> <password> [-d]
 ### Encryption
 
 To encrypt a string, provide the string and password as arguments to the `endec` command:
-endec "Hello, World!" mypassword
+`endec "Hello, World!" mypassword`
 
 The encrypted string will be displayed in the terminal:
-Encrypted string: 1b4fb22942d0e22a5c0c2c3e2d3f4a5b
+`Encrypted string: 1b4fb22942d0e22a5c0c2c3e2d3f4a5b`
 
 ### Decryption
 
 To decrypt an encrypted string, provide the encrypted string, password, and the `-d` flag to the `endec` command:
-endec 1b4fb22942d0e22a5c0c2c3e2d3f4a5b mypassword -d
+`endec 1b4fb22942d0e22a5c0c2c3e2d3f4a5b mypassword -d`
 
 The decrypted string will be displayed in the terminal:
-Decrypted string: Hello, World!
+`Decrypted string: Hello, World!`
 
 ## Security Considerations
 
@@ -57,7 +57,7 @@ This project is licensed under the [MIT License](LICENSE) or the [Apache License
 
 ## Contributing
 
-Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/yourusername/endec).
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or submit a pull request on the [GitHub repository](https://github.com/simpsoncarlos3/endec).
 
 ## Disclaimer
 
